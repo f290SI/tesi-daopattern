@@ -78,4 +78,17 @@ public class Contato {
         this.observacoes = observacoes;
         return this;
     }
+
+    @Override
+    public String toString() {
+        return "Contato{" +
+                "nome='" + nome + '\'' +
+                ", apelido='" + apelido + '\'' +
+                ", email='" + email + '\'' +
+                ", telefone='" + telefone + '\'' +
+                ", end='" + end + '\'' +
+                ", empresa='" + empresa + '\'' +
+                ", observacoes='" + observacoes + '\'' +
+                '}';
+    }
 }
